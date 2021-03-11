@@ -343,8 +343,6 @@ github.com/stretchr/testify v1.6.1/go.mod h1:6Fq8oRcR53rry900zMqJjRRixrwX3KX962/
 github.com/tebeka/selenium v0.9.3 h1:VhduicmEfSggPSsMAxKXKVQxunJWzSqT86RrQTcvT/I=
 github.com/tebeka/selenium v0.9.3/go.mod h1:eIMjt8y9rypiIrlx7TAlwwjiL8pr0uqZYQHUxhA2NNE=
 github.com/urfave/cli/v2 v2.2.0/go.mod h1:SE9GqnLQmjVa0iPEY0f1w3ygNIYcIJ0OKPMoW2caLfQ=
-github.com/viant/afs v1.0.0 h1:xJWJMim5Ur2Hm/e7BSbQI1XrLEdKkRMb2WdfgBj9rpw=
-github.com/viant/afs v1.0.0/go.mod h1:wdiEDffZKJwj1ZSFasy7hHoxLQdSpFZkd3XOWNt1aN0=
 github.com/viant/afs v1.7.0 h1:VAzq9fJlJ/scwlgnjc/LVDbnpvGcUAUPHo9DTZzq0sg=
 github.com/viant/afs v1.7.0/go.mod h1:wdiEDffZKJwj1ZSFasy7hHoxLQdSpFZkd3XOWNt1aN0=
 github.com/viant/afsc v1.0.0 h1:qe1D6lG05IbpjBAE1KF1KjVSvzOc4esJyEfah3cF68w=
