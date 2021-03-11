@@ -40,7 +40,7 @@ require (
 	github.com/gorilla/websocket v1.4.0 // indirect
 	github.com/gregjones/httpcache v0.0.0-20190611155906-901d90724c79 // indirect
 	github.com/imdario/mergo v0.3.7 // indirect
-	github.com/jhump/protoreflect v1.7.0
+	github.com/jhump/protoreflect v1.8.2
 	github.com/json-iterator/go v1.1.6 // indirect
 	github.com/klauspost/compress v1.7.1 // indirect
 	github.com/klauspost/cpuid v1.2.1 // indirect
@@ -69,7 +69,7 @@ require (
 	github.com/spf13/pflag v1.0.3 // indirect
 	github.com/stretchr/testify v1.6.1
 	github.com/tebeka/selenium v0.9.3
-	github.com/viant/afs v1.0.0
+	github.com/viant/afs v1.7.0
 	github.com/viant/afsc v1.0.0
 	github.com/viant/asc v0.5.0
 	github.com/viant/assertly v0.5.3
@@ -83,7 +83,7 @@ require (
 	golang.org/x/net v0.0.0-20200707034311-ab3426394381
 	golang.org/x/oauth2 v0.0.0-20200107190931-bf48bf16ab8d
 	google.golang.org/api v0.30.0
-	google.golang.org/protobuf v1.25.0
+	google.golang.org/protobuf v1.25.1-0.20200805231151-a709e31e5d12
 	gopkg.in/linkedin/goavro.v1 v1.0.5 // indirect
 	gopkg.in/src-d/go-git.v4 v4.12.0
 	gopkg.in/yaml.v2 v2.2.2
@@ -96,3 +96,5 @@ require (
 	k8s.io/kubernetes v1.13.3
 	sigs.k8s.io/yaml v1.1.0 // indirect
 )
+
+replace google.golang.org/genproto@v0.0.0-20170818100345-ee236bd376b0 => google.golang.org/genproto v0.0.0-20210311153111-e2979279ddde
