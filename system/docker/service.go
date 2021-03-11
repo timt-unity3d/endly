@@ -263,8 +263,9 @@ outer:
 						name = "/" + name
 					}
 					if containerName == name {
+						log.Printf("adding %s\n", containerName)
 						response.Containers = append(response.Containers, candidate)
-						break outer
+						continue outer
 					}
 				}
 			}
@@ -279,9 +280,12 @@ func (s *service) stop(context *endly.Context, request *StopRequest) (*StopRespo
 	if err != nil {
 		return nil, err
 	}
+
 	response.Containers = status.Containers
 	for _, containerInfo := range status.Containers {
+                log.Printf("attempting to stop %s\n", containerInfo.Names)
 		if !IsContainerUp(&containerInfo) {
+	                log.Printf("%s is not running, skipping\n", containerInfo.Names)
 			continue
 		}
 		stopRequest := &ContainerStopRequest{}
