@@ -96,3 +96,5 @@ require (
 	k8s.io/kubernetes v1.13.3
 	sigs.k8s.io/yaml v1.1.0 // indirect
 )
+
+replace google.golang.org/genproto@v0.0.0-20170818100345-ee236bd376b0 => google.golang.org/genproto v0.0.0-20170818010345-ee236bd376b0
