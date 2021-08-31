@@ -28,7 +28,7 @@ require (
 	github.com/evanphx/json-patch v4.5.0+incompatible // indirect
 	github.com/globalsign/mgo v0.0.0-20181015135952-eeefdecb41b8 // indirect
 	github.com/go-errors/errors v1.0.1
-	github.com/go-sql-driver/mysql v1.4.1
+	github.com/go-sql-driver/mysql v1.5.0
 	github.com/gocql/gocql v0.0.0-20190610222256-e00e8c6226e8 // indirect
 	github.com/gomarkdown/markdown v0.0.0-20190222000725-ee6a7931a1e4 // indirect
 	github.com/google/gofuzz v1.0.0 // indirect
@@ -52,7 +52,7 @@ require (
 	github.com/lusis/go-slackbot v0.0.0-20180109053408-401027ccfef5 // indirect
 	github.com/lusis/slack-test v0.0.0-20190426140909-c40012f20018 // indirect
 	github.com/mattbaird/jsonpatch v0.0.0-20171005235357-81af80346b1a
-	github.com/mattn/go-sqlite3 v1.10.0
+	github.com/mattn/go-sqlite3 v2.0.3+incompatible
 	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd // indirect
 	github.com/modern-go/reflect2 v1.0.1 // indirect
 	github.com/morikuni/aec v1.0.0 // indirect
@@ -62,7 +62,7 @@ require (
 	github.com/opencontainers/go-digest v1.0.0-rc1 // indirect
 	github.com/opencontainers/image-spec v1.0.1 // indirect
 	github.com/peterbourgon/diskv v2.0.1+incompatible // indirect
-	github.com/pkg/errors v0.8.1
+	github.com/pkg/errors v0.9.1
 	github.com/satori/go.uuid v1.2.1-0.20181028125025-b2ce2384e17b
 	github.com/segmentio/kafka-go v0.3.4
 	github.com/sirupsen/logrus v1.4.2 // indirect
@@ -72,7 +72,7 @@ require (
 	github.com/viant/afs v1.0.0
 	github.com/viant/afsc v1.0.0
 	github.com/viant/asc v0.5.0
-	github.com/viant/assertly v0.5.3
+	github.com/viant/assertly v0.5.4
 	github.com/viant/bgc v0.8.0
 	github.com/viant/dsc v0.16.2
 	github.com/viant/dsunit v0.10.10
@@ -96,3 +96,5 @@ require (
 	k8s.io/kubernetes v1.13.3
 	sigs.k8s.io/yaml v1.1.0 // indirect
 )
+
+replace github.com/viant/dsc => github.com/timt-unity3d/dsc v0.16.1-0.20210831224330-c1936eedfdf6
